@@ -7,6 +7,7 @@
 **/.vuepress/.temp/**
 # Output
 **/.vuepress/dist/**
+!**/.vuepress/dist/gitignore
 
 # 自定义草稿箱
 docs/_temp/
