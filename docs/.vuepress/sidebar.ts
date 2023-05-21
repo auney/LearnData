@@ -92,7 +92,7 @@ export default sidebar([
     children: "structure",
   },
   {
-    text: "💼 博客文章",
+    text: " 博客文章",
     icon: "blog",
     prefix: "/_posts/",
     link: "/blog",

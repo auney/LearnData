@@ -87,91 +87,91 @@ export default hopeTheme({
   // 隐藏打印按钮
    print: false,
 
-  // plugins: {
-  //   blog: true,
+  plugins: {
+    blog: true,
 
-  //   // 评论配置（仅做样例，记得更换）
-  //   comment: {
-  //     provider: "Waline",
-  //     serverURL: "https://waline.newzone.top",
-  //     reaction: [
-  //       "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44d.png",
-  //       "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44f.png",
-  //       "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f60e.png",
-  //       "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f602.png",
-  //       "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f635-200d-1f4ab.png",
-  //     ],
-  //     // 部署 Waline：https://waline.js.org/guide/get-started.html
-  //     // pageview: true, // 浏览量统计
-  //     locales: {
-  //       "/": {
-  //         // 表情互动提示文字
-  //         reactionTitle: "已到达文章底部，欢迎留言、表情互动~",
-  //         reaction0: "赞一个",
-  //         reaction1: "支持下",
-  //         reaction2: "有点酷",
-  //         reaction3: "啥玩意",
-  //         reaction4: "看不懂",
-  //         // Waline 等级标签
-  //         admin: "盛年不重来，一日难再晨",
-  //         level0: "锻体",
-  //         level1: "炼气",
-  //         level2: "筑基",
-  //         level3: "金丹",
-  //         level4: "元婴",
-  //         level5: "化神",
-  //       },
-  //     },
+    // 评论配置（仅做样例，记得更换）
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://waline.newzone.top",
+    //   reaction: [
+    //     "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44d.png",
+    //     "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f44f.png",
+    //     "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f60e.png",
+    //     "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f602.png",
+    //     "https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/twemoji/13.1.0/72x72/1f635-200d-1f4ab.png",
+    //   ],
+    //   // 部署 Waline：https://waline.js.org/guide/get-started.html
+    //   // pageview: true, // 浏览量统计
+    //   locales: {
+    //     "/": {
+    //       // 表情互动提示文字
+    //       reactionTitle: "已到达文章底部，欢迎留言、表情互动~",
+    //       reaction0: "赞一个",
+    //       reaction1: "支持下",
+    //       reaction2: "有点酷",
+    //       reaction3: "啥玩意",
+    //       reaction4: "看不懂",
+    //       // Waline 等级标签
+    //       admin: "盛年不重来，一日难再晨",
+    //       level0: "锻体",
+    //       level1: "炼气",
+    //       level2: "筑基",
+    //       level3: "金丹",
+    //       level4: "元婴",
+    //       level5: "化神",
+    //     },
+    //   },
 
-  //     // Giscus 备用配置
-  //     /*
-  //     provider: "Giscus",
-  //     repo: "rockbenben/LearnData",
-  //     repoId: "R_kgDOHdfk6Q",
-  //     category: "Comments",
-  //     categoryId: "DIC_kwDOHdfk6c4CQYNn",
-  //     */
-  //   },
+    //   // Giscus 备用配置
+    //   /*
+    //   provider: "Giscus",
+    //   repo: "rockbenben/LearnData",
+    //   repoId: "R_kgDOHdfk6Q",
+    //   category: "Comments",
+    //   categoryId: "DIC_kwDOHdfk6c4CQYNn",
+    //   */
+    // },
 
-  //   // 组件库
-  //   components: {
-  //     components: ["Badge", "BiliBili", "VideoPlayer", "YouTube"],
-  //   },
+    // 组件库
+    components: {
+      components: ["Badge", "BiliBili", "VideoPlayer", "YouTube"],
+    },
 
-  //   // 禁用不需要的配置
-  //   mdEnhance: {
-  //     align: true,
-  //     attrs: true, // 使用特殊标记为 Markdown 元素添加属性
-  //     // chart: true,
-  //     // codetabs: true, // 代码块分组
-  //     container: true,
-  //     // demo: true, //代码演示
-  //     // echarts: true,
-  //     // flowchart: true,
-  //     gfm: true,
-  //     imgLazyload: true,
-  //     // imgMark: true,
-  //     imgSize: true,
-  //     figure: true,
-  //     include: true, //导入文件
-  //     // katex: true,
-  //     mark: true,
-  //     // mermaid: true,
-  //     footnote: true,
-  //     tasklist: true,
-  //     sub: true, // 上下角标
-  //     sup: true,
-  //     // tabs: true, // 选项卡
-  //     // vpre: true,
-  //     // vuePlayground: true, // Vue 交互演示
-  //   },
+    // 禁用不需要的配置
+    mdEnhance: {
+      align: true,
+      attrs: true, // 使用特殊标记为 Markdown 元素添加属性
+      // chart: true,
+      // codetabs: true, // 代码块分组
+      container: true,
+      // demo: true, //代码演示
+      // echarts: true,
+      // flowchart: true,
+      gfm: true,
+      imgLazyload: true,
+      // imgMark: true,
+      imgSize: true,
+      figure: true,
+      include: true, //导入文件
+      // katex: true,
+      mark: true,
+      // mermaid: true,
+      footnote: true,
+      tasklist: true,
+      sub: true, // 上下角标
+      sup: true,
+      // tabs: true, // 选项卡
+      // vpre: true,
+      // vuePlayground: true, // Vue 交互演示
+    },
 
-  //   // rss 属性
-  //   feed: {
-  //     rss: true,
-  //     count: 10,
-  //   },
-  // },
+    // rss 属性
+    feed: {
+      rss: true,
+      count: 10,
+    },
+  },
 
   // 开发模式下是否启动热更新，显示所有更改并重新渲染
   hotReload: true,
