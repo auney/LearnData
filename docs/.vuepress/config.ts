@@ -30,7 +30,7 @@ export default defineUserConfig({
   pagePatterns: [
     "**/*.md",
     "!_temp",
-    "!reading",
+  //  "!reading",
     "!.vuepress",
     "!node_modules",
   ],
